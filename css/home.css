@@ -1,0 +1,312 @@
+body,html,p,label{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑"	
+}
+#main{
+	width: 100%;
+	background-color: #F8F8F8;
+	overflow: hidden;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+	width: 100%;
+}
+#ani{
+	margin-bottom: 0.8%;
+}
+/**********************************************功能区*******************************/
+#function{
+	background-color: white;
+	margin-top: 2%;
+}
+#function .top,#function .btm{
+	width: 100%;
+	height: 103px;
+	display: flex;
+	font-size: 12px;
+	font-weight: bold;
+}
+#function .top{
+	padding-top:1.333333% 
+}
+#function .btm{
+	border-top: 2px solid #EDEDED;
+	border-bottom: 2px solid #EDEDED;
+}
+#function p{
+	width: 50px;
+	text-align: center;
+}
+/*flex居中*/
+#function .top .logo,#function .top .counter div,#function .top .EffectImg div,#function .top .designer div,#function .top .site div,#function .btm .logo,#function .btm .strategy div,#function .btm .home div,#function .btm .store div,#function .btm .experience div{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+#function .top .logo,#function .btm .logo{
+	flex-direction: column;
+}
+#function .top .logo,#function .btm .logo{
+	flex-grow:1;
+	border-left: 2px solid #EDEDED;	
+}
+/*功能区宽高*/
+#function .top .counter div,#function .top .EffectImg div,#function .top .designer div,#function .top .site div,#function .btm .strategy div,#function .btm .home div,#function .btm .store div,#function .btm .experience div{
+	width:47px;
+	height: 47px;
+    border-radius: 7px;
+}
+/*计算器*/
+#function .top .counter div{
+	background-color: #FD8E35;
+}
+#function .top .counter span{
+	width: 20px;
+	height: 27px;
+	background: url(../img/icon.png) -15px -53px no-repeat;
+}
+/*效果图*/
+#function .top .EffectImg div{
+	background-color: #F5C132;
+}
+#function .top .EffectImg span{
+	width: 27px;
+	height: 27px;
+	background: url(../img/icon.png) -12px -108px no-repeat;
+}
+/*设计师*/
+#function .top .designer div{
+	background-color: #6CC143;
+}
+#function .top .designer span{
+	height: 24px;
+	width: 24px;
+	background: url(../img/icon.png) -13px -164px no-repeat;
+}
+/*参观工地*/
+#function .top .site div{
+	background-color: #7B7AD7;
+}
+#function .top .site span{
+	height: 24px;
+	width: 27px;
+	background: url(../img/icon.png) -12px -219px no-repeat;
+}
+/*装修攻略*/
+#function .btm .strategy div{
+	background-color: #FE8A66;
+}
+#function .btm .strategy span{
+	width: 26px;
+	height: 24px;
+	background: url(../img/icon.png) -12px -272.5px no-repeat;
+}
+/*家装馆*/
+#function .btm .home div{
+	background-color: #7B7AD7;
+}
+#function .btm .home span{
+	width: 25px;
+	height: 24px;
+	background: url(../img/icon.png) -12px -327px no-repeat;
+}
+/*家居商城*/
+#function .btm .store div{
+	background-color: #01D1D1;
+}
+#function .btm .store span{
+	width: 27px;
+	height: 25px;
+	background: url(../img/icon.png) -12px -381px no-repeat;
+}
+/*体验馆*/
+#function .btm .experience div{
+	background-color: #42BCE7;
+}
+#function .btm .experience span{
+	width: 25px;
+	height: 24px;
+	background: url(../img/icon.png) -12px -327px no-repeat;
+}
+#function .top .counter span,#function .top .EffectImg span,#function .top .designer span,#function .top .site span,#function .btm .strategy span,#function .btm .home span,#function .btm .store span,#function .btm .experience span,#evaluate .img{
+	background-size: 50px 1000px;
+}
+/***************************************分割线***********************************/
+#line{
+	width: 100%;
+	height: 5px;
+	background-color: white;
+}
+/*********************************估算你房子多少钱******************************/
+#evaluate{
+	background-color: white;
+	width: 100%;
+	margin-top: 5.866666%;
+	border-top: 2px solid #FEC773;
+	border-bottom: 2px solid #FEC773;
+	font-size: 18px;
+}
+/*计算器*/
+#evaluate .img{
+	vertical-align: middle;
+	width: 19px;
+}
+#evaluate .counter{
+	text-align: center;
+	font-weight: bold;
+	margin: 18px auto 0;
+}
+/*新房，旧房*/
+#evaluate .home{
+	width: 95%;
+	margin: 18px auto 0px;
+}
+#evaluate .home div{
+	float: left;
+	width: 50%;
+	border-bottom: 1px solid #CFCFCF;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 12px;
+}
+#evaluate .home div:hover{
+	border-bottom: 1px solid #D84067;
+}
+/*三角形*/
+#evaluate .home div:hover span{
+	position: relative;
+	color: #D84067;
+}
+#evaluate .home div:hover span .logo{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border:14px solid transparent; 
+	border-bottom-color:#D84067;
+	position: absolute;
+	top: 10px;
+	left:0;
+}
+#evaluate .home div:hover span .logo1{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border:14px solid transparent; 
+	border-bottom-color:white;
+	position: relative;
+	left: -14px;
+	top:-12px;
+}
+/*输入框*/
+#evaluate .input{
+	width: 93.333333%;
+	height: 48px;
+	border: 1px solid #D4D4D4;
+	overflow: hidden;
+	margin: 72px auto 0;
+	border-radius: 6px;
+}
+#evaluate .input div{
+	float: left;
+}
+#evaluate .input :nth-child(1){
+	width: 90%;
+}
+#evaluate .input input{
+	border: none;
+	outline: none;
+	height: 48px;
+}
+#evaluate .input :nth-child(2){
+	line-height: 48px
+}
+/*下拉框*/
+#evaluate .select{
+	width: 93.333333%;
+	height: 48px;
+	margin: 18px auto 0;
+}
+#evaluate .select select{
+	height: 100%;
+	width: 49%;
+	border-radius: 6px;
+}
+/*button*/
+#evaluate .button{
+	width: 93.333333%;
+	height: 40px;
+	margin: 11px auto 11px;
+}
+#evaluate .button div,#evaluate .button div input{
+	width: 100%;
+	height: 100%;
+}
+#evaluate .button div input{
+	border-color: #FA1C06;
+	background-color:#FA4E3E ;
+	color: white;
+	text-shadow:;
+	border-radius: 6px;
+}
+/****************************************盛宴***************************************/
+#goImg{
+	width: 100%;
+	padding-top: 6.060606%;
+	background-color: white;
+	border-bottom: 2px solid #EDEDED;
+}
+#goImg .top,#goImg .center,#goImg .btm{
+	width: 100%;
+	overflow: hidden;
+}
+#goImg .top div,#goImg .center div,#goImg .btm div{
+	width: 50%;	
+	float: left;
+}
+#goImg div img{
+	width: 100%;
+}
+/*装修攻略*/
+.renovation{
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: #F3F3F3;
+	border-top: #F3F3F3;
+	line-height: 45px;
+	border-bottom: 2px solid #EDEDED;
+}
+#renovation{
+	background-color: white;
+	width: 100%;
+	
+}
+#renovation .outer{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#renovation .outer .img{
+	width: 33%;
+}
+#renovation .outer .img,#renovation .outer .text{
+	float: left;
+}
+#renovation .outer .text{
+	width: 67%;
+	font-size: 14px;
+}
+#renovation .outer .text div:nth-child(1){
+	width: 100%;
+	height: 25px;
+	font-size: 18px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#renovation .outer .img img{
+	width: 100%;
+}
